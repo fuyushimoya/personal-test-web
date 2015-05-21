@@ -2,9 +2,10 @@
   "name": "personal-test-web",
   "version": "0.0.1",
   "description": "A self practicing web",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
   "devDependencies": {
     "node-libs-browser": "^0.5.0",
     "webpack": "^1.9.7"
+  },
+  "jshintConfig": {
+    "node": "true",
+    "laxcomma": "true"
   }
 }
